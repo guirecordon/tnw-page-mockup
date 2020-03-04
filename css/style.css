@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+  body {
+    background-color: lightgreen;
+    
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: blue;
+  }
+}
