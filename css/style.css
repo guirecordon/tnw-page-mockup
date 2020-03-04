@@ -10,3 +10,17 @@
     background-color: blue;
   }
 }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  background-color: gray;
+}
+
+.nav-icons li {
+  list-style: none;
+  display: inline-block;
+}
