@@ -1,7 +1,7 @@
 @media (min-width: 768px) {
   body {
     background-color: lightgreen;
-    
+
   }
 }
 
@@ -14,6 +14,8 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 48px;
 }
 
 .nav-logo {
@@ -23,4 +25,25 @@
 .nav-icons li {
   list-style: none;
   display: inline-block;
+}
+
+.tech-fest-cta {
+  background-color: yellow;
+  line-height: 60px;
+  white-space: nowrap;
+}
+
+.top-articles article {
+  background-color: chocolate;
+  border: crimson solid 1px;
+  height: 33.3vh;
+  margin: 10px 5px;
+}
+
+.latest-news div {
+  background-color: darkgreen;
+}
+
+.latest-funding div {
+  background-color: darkkhaki;
 }
