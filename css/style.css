@@ -1,14 +1,22 @@
-@media (min-width: 768px) {
-  body {
-    background-color: lightgreen;
-
-  }
+.nav-bar-ipad-1 {
+  display: none;
+  background-color: black;;
 }
 
-@media (min-width: 1024px) {
-  body {
-    background-color: blue;
-  }
+.nav-bar-ipad-2 {
+  display: none;
+}
+
+.nav-bar-ipad-1 ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+.nav-bar-ipad-2 ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
 }
 
 .nav {
@@ -46,4 +54,50 @@
 
 .latest-funding div {
   background-color: darkkhaki;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .nav-icons {
+    display: none;
+  }
+
+  .nav-bar-ipad-1 {
+    display: block;
+  }
+
+  .nav-bar-ipad-2 {
+    display: block;
+  }
+
+  .top-articles {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .top1 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-color: burlywood;
+  }
+
+  .top2 {
+    grid-column: span 1;
+    background-color: chocolate;
+  }
+
+  .top3 {
+    background-color: cornflowerblue;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: blue;
+  }
 }
