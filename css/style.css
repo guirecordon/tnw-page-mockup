@@ -83,6 +83,16 @@
   display: block;
 }
 
+.lf-links-bars {
+  display: none;
+}
+
+/* @media (max-width: 780px) {
+  .lf-links-bars {
+    display: none;
+  }
+} */
+
 @media (min-width: 768px) {
   body {
     background-color: lightgreen;
@@ -166,7 +176,6 @@
   .footer-legal span {
     display: inline;
   }
-
 }
 
 @media (min-width: 1024px) {
@@ -176,5 +185,24 @@
 
   .nav-logo {
     display: none;
+  }
+
+  .latest-news {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .lf-links li {
+    display: inline-block;
+  }
+
+  .lf-links-bars {
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  .fund-banner-container {
+    display: grid;
+    grid
   }
 }
