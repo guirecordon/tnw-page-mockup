@@ -26,8 +26,19 @@
   height: 48px;
 }
 
-.nav-logo {
+.nav-logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: gray;
+  width: 106px;
+  height: 48px;
+}
+
+.nav-logo img {
+  display: block;
+  width: 66px;
+  height: 16px;
 }
 
 .nav-icons li {
@@ -35,24 +46,69 @@
   display: inline-block;
 }
 
+.nav-icons {
+  display: flex;
+}
+
+.nav-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  text-decoration: none;
+  border-left: solid 0.65px rgba(0, 0, 0, 0.10);
+}
+
+#nav-search {
+  transform: scaleX(-1);
+  color: rgb(0, 0, 0, 0.35);
+}
+
 .tech-fest-cta {
-  background-color: yellow;
+  background-color: #ffdd33;
   line-height: 60px;
   white-space: nowrap;
+  font-size: 12px;
+}
+
+.tech-fest-cta a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.90);
+  padding-left: 5px;
+  font-family: Avalon, sans-serif;
+  position: relative;
+}
+
+.tech-fest-cta span {
+  position: absolute;
+  top: -15px;
+  right: -25px;
 }
 
 .top-articles article {
-  background-color: chocolate;
   border: crimson solid 1px;
   margin: 10px 5px;
+  /* height: 33.3vh; */
 }
 
-.latest-news div {
-  background-color: darkgreen;
+.top1 {
+  /* width: 100%; */
+  background-image: url('images/latest-games.jpg');
+  background-size: cover;
+}
+
+.ln-heading {
+  font-family: Avalan, sans-serif;
+  color: #f42;
 }
 
 .fund-banner {
   background-color: burlywood;
+}
+
+.fourth-banner {
+  display: none;
 }
 
 .footer-links {
@@ -147,7 +203,7 @@
     grid-gap: 10px;
   }
 
-  .ln-heading {
+  #ln-heading {
     grid-column: 1 / -1;
   }
 
@@ -159,6 +215,10 @@
   .fund-banner {
     margin: 10px;
     flex: 1;
+  }
+
+  .fourth-banner {
+    display: none;
   }
 
   .sections-grid {
@@ -201,8 +261,15 @@
     margin-left: 5px;
   }
 
-  .fund-banner-container {
-    display: grid;
-    grid
+  .fourth-banner {
+    display: block;
+  }
+
+  .sections-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .latest-deals-grid {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
