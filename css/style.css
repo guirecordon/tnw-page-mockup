@@ -103,8 +103,84 @@
   color: #f42;
 }
 
-.fund-banner {
+.ln-bg-img {
+  width: 75px;
+  height: 75px;
+}
+
+.img1 {
   background-color: burlywood;
+  background-image: url('images/face-masks.jpg');
+}
+
+.ln-mobile-atcl-wrapper {
+  display: flex;
+}
+
+.fund-banner {
+  font-family: 'ARS-maquette', sans-serif;
+  font-size: 18px;
+  width: 330px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.fund-banner img {
+  position: absolute;
+  width: 60px;
+  margin: 10px;
+}
+
+.fund-banner h4 {
+  background-color: #f42;
+  color: #fff;
+  padding: 7.5px 85px;
+}
+
+.fund-banner p {
+  font-size: 11px;
+  font-family: 'Shentox', sans-serif;
+}
+
+.fb-pricetag {
+  background: rgba(255, 68, 34, 0.08);
+  padding: 10px 85px;
+}
+
+.fb-local-offer {
+  display: block;
+  border-bottom: solid 1px #f42;
+  font-size: 13px;
+  background: rgba(255, 68, 34, 0.025);
+}
+
+.fb-local-offer a {
+  color: #555;
+}
+
+.fb-local-offer i {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.fb-local-offer-bottom {
+  display: block;
+  font-size: 13px;
+  background: rgba(255, 68, 34, 0.025);
+  padding: 10px 16px 22px 16px;
+}
+
+.fb-local-offer-icon {
+  font-size: 18px;
+}
+
+.fb-local-offer a {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.fb-local-offer span {
+  margin-left: 10px;
 }
 
 .fourth-banner {
