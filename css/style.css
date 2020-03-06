@@ -57,7 +57,7 @@
   width: 48px;
   height: 48px;
   text-decoration: none;
-  border-left: solid 0.65px rgba(0, 0, 0, 0.10);
+  border-left: solid 0.65px rgba(0, 0, 0, 0.1);
 }
 
 #nav-search {
@@ -66,7 +66,7 @@
 }
 
 .tech-fest-cta {
-  background-color: #ffdd33;
+  background-color: #fd3;
   line-height: 60px;
   white-space: nowrap;
   font-size: 12px;
@@ -74,7 +74,7 @@
 
 .tech-fest-cta a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.90);
+  color: rgba(0, 0, 0, 0.9);
   padding-left: 5px;
   font-family: Avalon, sans-serif;
   position: relative;
@@ -89,7 +89,6 @@
 .top-articles article {
   border: crimson solid 1px;
   margin: 10px 5px;
-  /* height: 33.3vh; */
 }
 
 .top1 {
@@ -103,14 +102,19 @@
   color: #f42;
 }
 
-.ln-bg-img {
+.ln-bg-imgg {
+  display: block;
   width: 75px;
-  height: 75px;
 }
 
 .img1 {
-  background-color: burlywood;
-  background-image: url('images/face-masks.jpg');
+  /* background-color: burlywood; */
+  width: 75%;
+  background-image: url('/images/face-masks.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center, center; */
+
 }
 
 .ln-mobile-atcl-wrapper {
@@ -156,6 +160,9 @@
 
 .fb-local-offer a {
   color: #555;
+  display: flex;
+  align-items: center;
+  padding: 15px;
 }
 
 .fb-local-offer i {
@@ -171,12 +178,6 @@
 
 .fb-local-offer-icon {
   font-size: 18px;
-}
-
-.fb-local-offer a {
-  display: flex;
-  align-items: center;
-  padding: 15px;
 }
 
 .fb-local-offer span {
@@ -218,12 +219,6 @@
 .lf-links-bars {
   display: none;
 }
-
-/* @media (max-width: 780px) {
-  .lf-links-bars {
-    display: none;
-  }
-} */
 
 @media (min-width: 768px) {
   body {
