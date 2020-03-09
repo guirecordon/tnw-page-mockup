@@ -258,6 +258,19 @@
   display: none;
 }
 
+.sections-grid a {
+  display: block;
+  height: 100px;
+}
+
+.sg-img1 {
+  background-image: url('/images/app-store-apple-hed-796x412.png');
+   width: 100%;
+  height: 276px;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+}
+
 .footer-links {
   height: 185px;
 }
