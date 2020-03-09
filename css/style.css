@@ -104,28 +104,30 @@
 
 .ln-mobile-atcl-wrapper {
   display: flex;
-  justify-content: space-around;
-  border: solid red 1px;
+  justify-content: space-between;
+  margin: 15px;
 }
 
 .ln-bg-imgg {
-  display: block;
-  /* width: 75px; */
-  border: solid red 1px;
+  display: inline-block;
+  min-width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .img1 {
-  /* background-color: burlywood; */
-  /* width: 100%; */
   background-image: url('/images/face-masks.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* background-position: center, center; */
+}
 
+.img2 {
+  background-image: url('/images/norway.jpg');
 }
 
 .ln-atcl-head {
-  width: 60%;
+  display: block;
+  width: 250px;
+  padding-left: 10px;
 }
 
 .ln-atcl-head h3 {
