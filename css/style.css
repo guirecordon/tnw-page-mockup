@@ -108,7 +108,7 @@
   margin: 15px;
 }
 
-.ln-bg-imgg {
+.ln-bg-img {
   display: inline-block;
   min-width: 75px;
   height: 75px;
@@ -122,6 +122,30 @@
 
 .img2 {
   background-image: url('/images/norway.jpg');
+}
+
+.img3 {
+  background-image: url('/images/scientists.jpg');
+}
+
+.img4 {
+  background-image: url('/images/satoshi.png');
+}
+
+.img5 {
+  background-image: url('/images/india.png');
+} 
+
+.img6 {
+  background-image: url('/images/tnw-deals.jpg');
+}
+
+.img7 {
+  background-image: url('/images/John-Oliver.jpg');
+}
+
+.img8 {
+  background-image: url('/images/slack.png');
 }
 
 .ln-atcl-head {
