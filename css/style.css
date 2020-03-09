@@ -260,15 +260,27 @@
 
 .sections-grid a {
   display: block;
-  height: 100px;
 }
 
 .sg-img1 {
   background-image: url('/images/app-store-apple-hed-796x412.png');
-   width: 100%;
+  width: 100%;
   height: 276px;
-  /* background-size: cover;
-  background-repeat: no-repeat; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 200px;
+}
+
+.sg-img1 a {
+  color: #f8f8f8;
+}
+
+.sg-img1 h3 {
+  font-size: 20px;
+  font-family: Maquette, sans-serif;
+  /* color: #f8f8f8; */
+
 }
 
 .footer-links {
