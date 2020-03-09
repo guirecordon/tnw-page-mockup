@@ -102,14 +102,21 @@
   color: #f42;
 }
 
+.ln-mobile-atcl-wrapper {
+  display: flex;
+  justify-content: space-around;
+  border: solid red 1px;
+}
+
 .ln-bg-imgg {
   display: block;
-  width: 75px;
+  /* width: 75px; */
+  border: solid red 1px;
 }
 
 .img1 {
   /* background-color: burlywood; */
-  width: 75%;
+  /* width: 100%; */
   background-image: url('/images/face-masks.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -117,8 +124,16 @@
 
 }
 
-.ln-mobile-atcl-wrapper {
-  display: flex;
+.ln-atcl-head {
+  width: 60%;
+}
+
+.ln-atcl-head h3 {
+  font-size: 14px;
+}
+
+.ln-atcl-head p {
+  font-size: 12px;
 }
 
 .fund-banner {
