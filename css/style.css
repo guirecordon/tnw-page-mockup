@@ -87,19 +87,48 @@
 }
 
 .top-articles article {
-  border: crimson solid 1px;
   margin: 10px 5px;
+  color: #f8f8f8;
+  height: 33vh;
 }
 
 .top1 {
-  /* width: 100%; */
-  background-image: url('images/latest-games.jpg');
+  background-image: url('/images/latest-games.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  height: 33vh;
+}
+
+.top2 {
+  background-image: url('/images/amazon.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  height: 33vh;
+}
+
+.top3 {
+  background: url('/images/corona.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  height: 33vh;
 }
 
 .ln-heading {
-  font-family: Avalan, sans-serif;
+  font-family: Avalon, sans-serif;
   color: #f42;
+}
+
+.latest-funding h2,
+.latest-funding .lf-links {
+  color: #f42;
+  font-family: Avalon, sans-serif;
+}
+
+.latest-funding li {
+  margin: 10px;
 }
 
 .ln-mobile-atcl-wrapper {
