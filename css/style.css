@@ -260,6 +260,12 @@
 
 .sections-grid a {
   display: block;
+  color: #f8f8f8;
+}
+
+.sections-grid h3 {
+  font-size: 20px;
+  font-family: Maquette, sans-serif;
 }
 
 .sections-grid {
@@ -278,8 +284,7 @@
   /* margin-left: 4px; */
 }
 
-.sg-img1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/app-store-apple-hed-796x412.png');
+.bckg-image {
   width: 100%;
   height: 276px;
   background-size: cover;
@@ -288,16 +293,18 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  /* padding-top: 200px; */
 }
 
-.sg-img1 a {
-  color: #f8f8f8;
+.sg-img1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/app-store-apple-hed-796x412.png');
 }
 
-.sg-img1 h3 {
-  font-size: 20px;
-  font-family: Maquette, sans-serif;
+.sg-img2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/oneplus-love-letter.png');
+}
+
+.sg-img3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/Trump-Twitter-796x418.jpg');
 }
 
 .sub-article img {
