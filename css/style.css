@@ -262,8 +262,20 @@
   display: block;
 }
 
+.sections-grid {
+  margin: 15px;
+}
+
 .sections-grid ul {
-  display: linear;
+  /* display: linear; */
+}
+
+.sg-article-list li {
+  border-bottom: rgb(117, 117, 117) 1px solid;
+  padding-bottom: 10px;
+  list-style-position: inside;
+  list-style-type: disc;
+  /* margin-left: 4px; */
 }
 
 .sg-img1 {
@@ -286,8 +298,21 @@
 .sg-img1 h3 {
   font-size: 20px;
   font-family: Maquette, sans-serif;
-  /* color: #f8f8f8; */
+}
 
+.sub-article img {
+  width: 100px;
+  height: 80px;
+}
+
+.sub-article div {
+  display: block;
+  width: 65%;
+}
+
+.sub-article {
+  display: flex;
+  color: #f42;
 }
 
 .footer-links {
