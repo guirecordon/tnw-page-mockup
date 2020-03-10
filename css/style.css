@@ -352,6 +352,7 @@
 
 .footer-links {
   height: 185px;
+  background-color: black;
 }
 
 .footer-links-ln1 {
@@ -380,6 +381,22 @@
 
 .lf-links-bars {
   display: none;
+}
+
+.fa {
+  color: rgb(250, 249, 249);
+}
+
+.footer-links-ln1 li {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  background-color: rgb(100, 100, 100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50%;
 }
 
 .latest-deals .ln-atcl-head h3 {
