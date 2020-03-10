@@ -355,6 +355,22 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/hilarious.jpg');
 }
 
+.sg-img5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/learnhtml.png');
+}
+
+.sg-img6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/stop-saying.png');
+}
+
+.sg-img7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/microlino.png');
+}
+
+.sg-img8 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/massive.jpg');
+}
+
 .sub-article img {
   width: 100px;
   height: 80px;
