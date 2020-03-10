@@ -3,6 +3,17 @@
   background-color: black;
 }
 
+/* .fixed-header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+} */
+
+/* nav {
+  z-index: 2;
+} */
+
 .nav-bar-ipad-2 {
   display: none;
 }
@@ -90,6 +101,11 @@
   margin: 10px 5px;
   color: #f8f8f8;
   height: 33vh;
+}
+
+.top-articles {
+  margin-top: 58px;
+  /* z-index: -1; */
 }
 
 .top1 {
@@ -333,6 +349,10 @@
 
 .sg-img3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/Trump-Twitter-796x418.jpg');
+}
+
+.sg-img4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/hilarious.jpg');
 }
 
 .sub-article img {
