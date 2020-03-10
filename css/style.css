@@ -358,12 +358,25 @@
 .footer-links-ln1 {
   display: flex;
   justify-content: center;
+  padding: 30px 0 10px 0;
 }
 
 .footer-links-ln2 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.footer-links-ln2 a {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: Shentox, sans-serif;
+  color: #aaa;
+}
+
+.footer-links-ln2 li {
+  margin: 10px;
+  line-height: 0em;
 }
 
 .footer-links li {
@@ -375,8 +388,18 @@
   text-align: center;
 }
 
+.footer-legal img {
+  width: 37px;
+  height: 9px;
+}
+
 .footer-legal span {
   display: block;
+}
+
+.powered-by-logo {
+  width: 65px;
+  height: 9px;
 }
 
 .lf-links-bars {
