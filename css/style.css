@@ -352,13 +352,14 @@
 
 .footer-links {
   height: 185px;
-  background-color: black;
+  background-color: #131313;
 }
 
 .footer-links-ln1 {
   display: flex;
   justify-content: center;
   padding: 30px 0 10px 0;
+  
 }
 
 .footer-links-ln2 {
@@ -386,19 +387,25 @@
 .footer-legal {
   height: 122px;
   text-align: center;
+  font-size: 13px;
+  font-family: 'ARS Maquette', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #6a6a6a;
 }
 
-.footer-legal img {
+.tnw-ft-logo {
   width: 37px;
   height: 9px;
 }
 
-.footer-legal span {
+.footer-legal p {
   display: block;
 }
 
 .powered-by-logo {
-  width: 65px;
   height: 9px;
 }
 
