@@ -163,7 +163,7 @@
 
 .img5 {
   background-image: url('/images/india.png');
-} 
+}
 
 .img6 {
   background-image: url('/images/tnw-deals.jpg');
@@ -304,17 +304,12 @@
   margin: 15px;
 }
 
-.sections-grid ul {
-  /* display: linear; */
-}
-
 .sg-article-list li {
   border-bottom: rgb(223, 221, 221) 1px solid;
   color: rgb(88, 88, 88);
   padding-bottom: 10px;
   list-style-position: inside;
   list-style-type: disc;
-  /* margin-left: 4px; */
 }
 
 .bckg-image {
@@ -519,5 +514,3 @@
     grid-template-columns: repeat(4, 1fr);
   }
 }
-
-
