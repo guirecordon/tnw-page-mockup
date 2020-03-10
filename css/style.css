@@ -177,6 +177,26 @@
   background-image: url('/images/slack.png');
 }
 
+.img9 {
+  background-image: url('/images/2020latest.jpg');
+}
+
+.img10 {
+  background-image: url('/images/complete.jpg');
+}
+
+.img11 {
+  background-image: url('/images/microsoft.jpg');
+}
+
+.img12 {
+  background-image: url('/images/python.PNG');
+}
+
+.img13 {
+  background-image: url('/images/premium.PNG');
+}
+
 .ln-atcl-head {
   display: block;
   width: 250px;
@@ -277,7 +297,8 @@
 }
 
 .sg-article-list li {
-  border-bottom: rgb(117, 117, 117) 1px solid;
+  border-bottom: rgb(223, 221, 221) 1px solid;
+  color: rgb(88, 88, 88);
   padding-bottom: 10px;
   list-style-position: inside;
   list-style-type: disc;
@@ -352,6 +373,14 @@
 
 .lf-links-bars {
   display: none;
+}
+
+.latest-deals .ln-atcl-head h3 {
+  font-size: 14px;
+}
+
+.line-through {
+  text-decoration: line-through;
 }
 
 @media (min-width: 768px) {
@@ -478,3 +507,5 @@
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+
