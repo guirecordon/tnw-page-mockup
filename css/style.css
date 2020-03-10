@@ -197,6 +197,18 @@
   background-image: url('/images/premium.PNG');
 }
 
+.img14 {
+  background-image: url('/images/freebie-tiger.png');
+}
+
+.img15 {
+  background-image: url('/images/prep-bundle.png');
+}
+
+.img16 {
+  background-image: url('/images/stackskills.png');
+}
+
 .ln-atcl-head {
   display: block;
   width: 250px;
