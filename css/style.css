@@ -30,7 +30,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* height: 48px; */
   background-color: #f6f6f6;
 }
 
@@ -130,7 +129,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
-  /* height: 33vh; */
 }
 
 .top2 {
@@ -138,7 +136,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
-  /* height: 33vh; */
 }
 
 .top3 {
@@ -146,7 +143,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
-  /* height: 33vh; */
 }
 
 .ln-heading {
@@ -169,7 +165,6 @@
 .ln-mobile-atcl-wrapper {
   display: flex;
   justify-content: space-between;
-  /* margin: 15px; */
 }
 
 .ln-bg-img {
@@ -351,10 +346,11 @@
 
 .sg-article-list li {
   border-bottom: rgb(223, 221, 221) 1px solid;
-  color: rgb(88, 88, 88);
+  color: #555;
   padding-bottom: 10px;
   list-style-position: inside;
   list-style-type: disc;
+  font-size: 13px;
 }
 
 .bckg-image {
@@ -401,13 +397,18 @@
 }
 
 .sub-article img {
-  width: 100px;
-  height: 80px;
+  width: 116px;
+  height: 116px;
 }
 
 .sub-article div {
   display: block;
   width: 65%;
+  margin: auto 0;
+}
+
+.sub-article div p {
+  font-size: 14px;
 }
 
 .bckg-image h5 {
@@ -435,10 +436,12 @@
   display: flex;
   color: #f42;
   margin: 2px 0;
+  /* width: 100%; */
 }
 
 .sub-article h3 {
   margin: -2px 0;
+  font-size: 13px;
 }
 
 .footer-links {
@@ -591,13 +594,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, auto);
-    /* grid-gap: 10px; */
   }
-
-  /* .ln-atcl-head {
-    padding-left: 0;
-    margin: 0 auto;
-  } */
 
   .latest-news h2 {
     color: #f42;
@@ -638,12 +635,25 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: auto;
+    gap: 20px;
   }
 
-  .latest-deals-grid {
+  .latest-deals {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: auto;
+    grid-auto-rows: repeat(4, 1fr);
+    margin-bottom: 45px;
+  }
+
+  .latest-deals h2 {
+    grid-column: span 3;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    color: #f42;
+  }
+
+  .sg-article-list ul {
+    margin-top: 20px;
   }
 
   .footer-legal span {
