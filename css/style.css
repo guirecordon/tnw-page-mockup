@@ -156,12 +156,14 @@
 
 .latest-funding h2,
 .latest-funding .lf-links {
+  margin-bottom: 10px;
+  margin-left: 10px;
   color: #f42;
   font-family: Avalon, sans-serif;
 }
 
 .latest-funding li {
-  margin: 10px;
+  list-style: none;
 }
 
 .ln-mobile-atcl-wrapper {
@@ -272,9 +274,13 @@
 }
 
 .fund-banner h4 {
+  display: block;
+  height: 58px;
+  font-size: 18px;
   background-color: #f42;
   color: #fff;
-  padding: 7.5px 85px;
+  padding-left: 75px;
+  padding-top: 8px;
 }
 
 .fund-banner p {
@@ -283,8 +289,11 @@
 }
 
 .fb-pricetag {
+  display: block;
   background: rgba(255, 68, 34, 0.08);
-  padding: 10px 85px;
+  padding-top: 5px;
+  padding-left: 75px;
+  height: 40px;
 }
 
 .fb-local-offer {
@@ -572,6 +581,10 @@
 
   .top3 {
     background-color: cornflowerblue;
+  }
+
+  .love-wrapper {
+    padding: 0 20px;
   }
 
   .latest-news {
