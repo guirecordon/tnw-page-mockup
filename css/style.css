@@ -101,33 +101,14 @@
   margin: 10px 5px;
   color: #f8f8f8;
   height: 33vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
 }
 
 .top-articles {
   margin-top: 58px;
 }
 
-.ta-atcl-credits {
-  display: flex;
-  justify-content: start;
-}
-
-.top-articles .material-icons {
-  font-size: 14px;
-  /* align-self: baseline; */
-}
-
-.ta-atcl-credits p {
-  margin-right: 10px;
-  font-size: 12px;
-  color: #a7a7a7;
-}
-
 .top1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/latest-games.jpg');
+  background-image: url('/images/latest-games.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
@@ -135,7 +116,7 @@
 }
 
 .top2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/amazon.PNG');
+  background-image: url('/images/amazon.PNG');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
@@ -143,7 +124,7 @@
 }
 
 .top3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/corona.png');
+  background: url('/images/corona.png');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
@@ -469,6 +450,7 @@
   height: 122px;
   text-align: center;
   font-size: 13px;
+  font-family: 'ARS Maquette', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -518,10 +500,6 @@
 }
 
 @media (min-width: 768px) {
-  body {
-    background-color: lightgreen;
-  }
-
   .nav {
     display: flex;
     justify-content: flex-start;
@@ -537,6 +515,10 @@
 
   .nav-bar-ipad-1 {
     display: block;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 13px;
+    height: 40px;
+    padding-top: 16px;
   }
 
   .nav-bar-ipad-2 {
