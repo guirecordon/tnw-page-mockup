@@ -95,9 +95,7 @@
 }
 
 .top-articles article {
-  margin: 10px 5px;
   color: #f8f8f8;
-  /* height: 33vh; */
   font-size: 14px;
   letter-spacing: -0.08em;
   display: flex;
@@ -121,7 +119,10 @@
 }
 
 .top-articles {
-  margin-top: 78px;
+  margin: 78px 10px;
+  display: grid;
+  grid-template-rows: repeat(3, 30vh);
+  gap: 10px;
 }
 
 .top1 {
@@ -555,7 +556,8 @@
   .top-articles {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: repeat(2, 244px);
+    margin-top: 130px;
   }
 
   .top1 {
