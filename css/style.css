@@ -167,7 +167,7 @@
 .ln-mobile-atcl-wrapper {
   display: flex;
   justify-content: space-between;
-  margin: 15px;
+  /* margin: 15px; */
 }
 
 .ln-bg-img {
@@ -176,6 +176,7 @@
   height: 75px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .img1 {
@@ -577,7 +578,29 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, auto);
-    grid-gap: 10px;
+    /* grid-gap: 10px; */
+  }
+
+  /* .ln-atcl-head {
+    padding-left: 0;
+    margin: 0 auto;
+  } */
+
+  .latest-news h2 {
+    color: #f42;
+    margin-left: 20px;
+  }
+
+  .ln-mobile-atcl-wrapper {
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .ln-bg-img {
+    height: 100px;
+    width: 230px;
+    margin: 0 auto;
   }
 
   #ln-heading {
