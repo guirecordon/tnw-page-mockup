@@ -3,16 +3,12 @@
   background-color: black;
 }
 
-/* .fixed-header {
-  position: fixed;
-  z-index: 1;
+.fixed-header {
   width: 100%;
+  position: fixed;
   top: 0;
-} */
-
-/* nav {
-  z-index: 2;
-} */
+  z-index: 100;
+}
 
 .nav-bar-ipad-2 {
   display: none;
@@ -35,6 +31,7 @@
   justify-content: space-between;
   align-items: center;
   height: 48px;
+  background-color: #f6f6f6;
 }
 
 .nav-logo a {
@@ -101,10 +98,30 @@
   margin: 10px 5px;
   color: #f8f8f8;
   height: 33vh;
+  font-size: 14px;
+  letter-spacing: -0.08em;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.ta-atcl-credits {
+  display: flex;
+  align-items: center;
+}
+
+.icon-adjust-flex {
+  display: flex;
+  align-items: center;
+}
+
+.icon-adjust-flex .material-icons {
+  font-size: 14px;
+  margin: 0 3px;
 }
 
 .top-articles {
-  margin-top: 58px;
+  margin-top: 78px;
 }
 
 .top1 {
