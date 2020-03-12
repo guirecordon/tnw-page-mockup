@@ -158,13 +158,16 @@
 .latest-funding h2,
 .latest-funding .lf-links {
   margin-bottom: 10px;
-  margin-left: 10px;
   color: #f42;
   font-family: Avalon, sans-serif;
 }
 
 .latest-funding li {
   list-style: none;
+}
+
+.latest-funding {
+  margin-top: 50px;
 }
 
 .ln-mobile-atcl-wrapper {
@@ -344,6 +347,11 @@
   color: #f42;
 }
 
+.latest-deals h2,
+.latest-news h2 {
+  color: #f42;
+}
+
 .sections-grid {
   margin: 15px;
 }
@@ -352,9 +360,21 @@
   border-bottom: rgb(223, 221, 221) 1px solid;
   color: #555;
   padding-bottom: 10px;
-  list-style-position: inside;
-  list-style-type: disc;
+  list-style-position: outside;
   font-size: 13px;
+}
+
+.sg-article-list ul {
+  list-style: none;
+}
+
+.sg-article-list ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 .bckg-image {
@@ -657,7 +677,6 @@
     grid-column: span 3;
     margin-left: 10px;
     margin-bottom: 30px;
-    color: #f42;
   }
 
   .sg-article-list ul {
@@ -720,11 +739,6 @@
     display: inline-block;
     margin-left: 5px;
   }
-
-/* .nav-bar-ipad-2 .material-icons {
-  border-left: #f42 solid 1px;
-  height: 100%
-} */
 
   .fourth-banner {
     display: block;
