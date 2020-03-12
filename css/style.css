@@ -37,7 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
   width: 106px;
   height: 48px;
 }
@@ -67,7 +67,11 @@
   border-left: solid 0.65px rgba(0, 0, 0, 0.1);
 }
 
-#nav-search {
+.nav-menu-icon {
+  color: #f42;
+}
+
+.nav-search {
   transform: scaleX(-1);
   color: rgb(0, 0, 0, 0.35);
 }
@@ -76,21 +80,17 @@
   background-color: #fd3;
   line-height: 60px;
   white-space: nowrap;
-  font-size: 12px;
 }
 
 .tech-fest-cta a {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.9);
-  padding-left: 5px;
+  font-size: 12px;
+  letter-spacing: -0.03rem;
   font-family: Avalon, sans-serif;
-  position: relative;
-}
-
-.tech-fest-cta span {
-  position: absolute;
-  top: -15px;
-  right: -25px;
 }
 
 .top-articles article {
@@ -125,24 +125,29 @@
 }
 
 .top1 {
-  background-image: url('/images/latest-games.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/latest-games.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
 }
 
 .top2 {
-  background-image: url('/images/amazon.PNG');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/amazon.PNG');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
 }
 
 .top3 {
-  background: url('/images/corona.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/corona.png');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
+}
+
+.love-wrapper {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .ln-heading {
@@ -164,7 +169,8 @@
 
 .ln-mobile-atcl-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  padding: 7.5px 0;
 }
 
 .ln-bg-img {
@@ -242,7 +248,6 @@
 
 .ln-atcl-head {
   display: block;
-  width: 250px;
   padding-left: 10px;
 }
 
@@ -257,7 +262,6 @@
 .fund-banner {
   font-family: 'ARS-maquette', sans-serif;
   font-size: 18px;
-  width: 330px;
   margin: 0 auto;
   position: relative;
 }
@@ -592,10 +596,6 @@
 
   .top3 {
     background-color: cornflowerblue;
-  }
-
-  .love-wrapper {
-    padding: 0 20px;
   }
 
   .latest-news {
