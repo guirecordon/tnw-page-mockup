@@ -146,8 +146,7 @@
 }
 
 .love-wrapper {
-  width: 90%;
-  margin: 0 auto;
+  margin: 0 20px;
 }
 
 .ln-heading {
@@ -260,6 +259,8 @@
 
 .ln-atcl-head p {
   font-size: 12px;
+  margin: 10px 0;
+  color: #aaa;
 }
 
 .fund-banner {
@@ -433,7 +434,7 @@
 .sub-article div {
   display: block;
   width: 65%;
-  margin: auto 0;
+  padding: 10px 14px;
 }
 
 .footer-legal p {
@@ -596,6 +597,11 @@
     padding: 0 10px;
   }
 
+  .ln-atcl-head {
+    display: block;
+    padding: 10px 0;
+  }
+
   .nav-bar-ipad-1 ul {
     display: flex;
     justify-content: flex-start;
@@ -641,14 +647,18 @@
 
   .top-articles {
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, 244px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, minmax(205px, auto));
     margin-top: 130px;
   }
 
   .top1 {
     grid-column: 1/3;
     grid-row: span 2;
+  }
+
+  .top1 h2 {
+    font-size: 40px;
   }
 
   .top2 {
@@ -663,11 +673,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, auto);
+    gap: 20px;
   }
 
   .latest-news h2 {
     color: #f42;
-    margin-left: 20px;
   }
 
   .ln-mobile-atcl-wrapper {
@@ -682,7 +692,7 @@
     margin: 0 auto;
   }
 
-  #ln-heading {
+  .ln-heading {
     grid-column: 1 / -1;
   }
 
@@ -694,6 +704,10 @@
   .fund-banner {
     margin: 10px;
     flex: 1;
+  }
+
+  .share-icon {
+    display: none;
   }
 
   .fourth-banner {
@@ -711,7 +725,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: repeat(4, 1fr);
-    margin-bottom: 45;
+    margin-bottom: 45px;
+    gap: 20px;
   }
 
   .latest-deals h2 {
@@ -726,6 +741,10 @@
 
   .footer-legal span {
     display: inline;
+  }
+
+  .footer-legal div {
+    display: flex;
   }
 }
 
