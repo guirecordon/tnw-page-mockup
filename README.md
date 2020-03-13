@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](LIVE DEMO GOES HERE)
+[Live Demo Link](https://guirecordon.github.io/tnw-page-mockup/)
 
 
 ## Getting Started
