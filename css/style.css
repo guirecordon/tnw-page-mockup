@@ -129,21 +129,21 @@
 }
 
 .top1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('./images/latest-games.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/latest-games.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
 }
 
 .top2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/amazon.PNG');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/amazon.PNG');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
 }
 
 .top3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/corona.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/corona.png');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
@@ -189,67 +189,67 @@
 }
 
 .img1 {
-  background-image: url('/images/face-masks.jpg');
+  background-image: url('../images/face-masks.jpg');
 }
 
 .img2 {
-  background-image: url('/images/norway.jpg');
+  background-image: url('../images/norway.jpg');
 }
 
 .img3 {
-  background-image: url('/images/scientists.jpg');
+  background-image: url('../images/scientists.jpg');
 }
 
 .img4 {
-  background-image: url('/images/satoshi.png');
+  background-image: url('../images/satoshi.png');
 }
 
 .img5 {
-  background-image: url('/images/india.png');
+  background-image: url('../images/india.png');
 }
 
 .img6 {
-  background-image: url('/images/tnw-deals.jpg');
+  background-image: url('../images/tnw-deals.jpg');
 }
 
 .img7 {
-  background-image: url('/images/John-Oliver.jpg');
+  background-image: url('../images/John-Oliver.jpg');
 }
 
 .img8 {
-  background-image: url('/images/slack.png');
+  background-image: url('../images/slack.png');
 }
 
 .img9 {
-  background-image: url('/images/2020latest.jpg');
+  background-image: url('../images/2020latest.jpg');
 }
 
 .img10 {
-  background-image: url('/images/complete.jpg');
+  background-image: url('../images/complete.jpg');
 }
 
 .img11 {
-  background-image: url('/images/microsoft.jpg');
+  background-image: url('../images/microsoft.jpg');
 }
 
 .img12 {
-  background-image: url('/images/python.PNG');
+  background-image: url('../images/python.PNG');
 }
 
 .img13 {
-  background-image: url('/images/premium.PNG');
+  background-image: url('../images/premium.PNG');
 }
 
 .img14 {
-  background-image: url('/images/freebie-tiger.png');
+  background-image: url('../images/freebie-tiger.png');
 }
 
 .img15 {
-  background-image: url('/images/prep-bundle.png');
+  background-image: url('../images/prep-bundle.png');
 }
 
 .img16 {
-  background-image: url('/images/stackskills.png');
+  background-image: url('../images/stackskills.png');
 }
 
 .ln-atcl-head {
@@ -411,23 +411,23 @@
 }
 
 .sg-img4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/hilarious.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/hilarious.jpg');
 }
 
 .sg-img5 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/learnhtml.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/learnhtml.png');
 }
 
 .sg-img6 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/stop-saying.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/stop-saying.png');
 }
 
 .sg-img7 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/microlino.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/microlino.png');
 }
 
 .sg-img8 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/massive.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/massive.jpg');
 }
 
 .sub-article img {
