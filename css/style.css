@@ -431,8 +431,8 @@
 }
 
 .sub-article img {
-  width: 116px;
-  height: 116px;
+  width: 96px;
+  height: 96px;
 }
 
 .sub-article div {
@@ -474,6 +474,8 @@
   display: flex;
   color: #f42;
   margin: 2px 0;
+  justify-content: space-between;
+  background-color: rgba(255, 68, 34, 0.06);
 }
 
 .sub-article h3 {
@@ -482,7 +484,7 @@
 }
 
 .footer-links {
-  height: 185px;
+  /* height: 185px; */
   background-color: #131313;
 }
 
@@ -691,9 +693,8 @@
   }
 
   .ln-bg-img {
-    height: 100px;
-    width: 230px;
-    margin: 0 auto;
+    min-height: 140px;
+    max-height: 157px;
   }
 
   .ln-heading {
@@ -853,7 +854,17 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .latest-deals-grid {
+  .latest-deals {
     grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(3, minmax(250px, 270px)); */
+  }
+
+  .latest-deals h2 {
+    grid-column: 1/-1;
+  }
+
+  .ln-bg-img {
+    min-height: 112px;
+    max-height: 251px;
   }
 }
