@@ -71,6 +71,10 @@
   color: #f42;
 }
 
+.desktop-only {
+  display: none;
+}
+
 .nav-search {
   transform: scaleX(-1);
   color: rgb(0, 0, 0, 0.35);
@@ -648,7 +652,7 @@
   .top-articles {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, minmax(205px, auto));
+    grid-template-rows: repeat(2, minmax(205px, 268px));
     margin-top: 130px;
   }
 
@@ -751,6 +755,42 @@
 @media (min-width: 1024px) {
   .nav-logo a {
     display: none;
+  }
+
+  .tech-fest-cta {
+    line-height: 30px;
+    padding-left: 0;
+  }
+
+  .tech-fest-cta a {
+    width: 97%;
+  }
+
+  .desktop-only {
+    display: inline;
+  }
+
+  .top-articles {
+    margin: 108px 10px 78px 10px;
+  }
+
+  .top-articles {
+    position: relative;
+  }
+
+  .cover-logo {
+    position: absolute;
+    z-index: 5;
+    color: #fff;
+    background: url('/images/tnw-logo.svg') no-repeat;
+   
+   
+    /* left: 24px;
+    top: 24px; */
+    height: 100%;
+    max-height: 112px;
+    max-width: 50%;
+    /* background-color: coral; */
   }
 
   .latest-news {
