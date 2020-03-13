@@ -129,7 +129,7 @@
 }
 
 .top1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('/images/latest-games.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('./images/latest-games.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
@@ -484,7 +484,6 @@
 }
 
 .footer-links {
-  /* height: 185px; */
   background-color: #131313;
 }
 
@@ -861,7 +860,6 @@
 
   .latest-deals {
     grid-template-columns: repeat(4, 1fr);
-    /* grid-template-rows: repeat(3, minmax(250px, 270px)); */
   }
 
   .latest-deals h2 {
