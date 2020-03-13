@@ -781,7 +781,7 @@
 
   .top1 {
     position: relative;
-    background-image: linear-gradient(to bottom right, rgba(255, 68, 34), rgba(0, 0, 0, 0.7) 99%), url('../images/latest-games.jpg');
+    background-image: linear-gradient(to bottom right, rgba(255, 68, 34), rgba(0, 0, 0, 0.7) 85%), url('../images/latest-games.jpg');
   }
 
   .top1 h2 {
@@ -790,7 +790,7 @@
   }
 
   .cover-logo {
-    background: url('/images/tnw-logo.svg') no-repeat;
+    background: url('../images/tnw-logo.svg') no-repeat;
     margin-bottom: 215px;
     margin-left: 13px;
     height: 100%;
