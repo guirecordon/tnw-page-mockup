@@ -774,23 +774,17 @@
     margin: 108px 10px 78px 10px;
   }
 
-  .top-articles {
-    position: relative;
-  }
-
   .cover-logo {
-    position: absolute;
-    z-index: 5;
-    color: #fff;
     background: url('/images/tnw-logo.svg') no-repeat;
-   
-   
-    /* left: 24px;
-    top: 24px; */
+    margin-bottom: 215px;
+    margin-left: 13px;
     height: 100%;
     max-height: 112px;
     max-width: 50%;
-    /* background-color: coral; */
+  }
+
+  .top1 {
+    background-image: linear-gradient(to bottom right, rgba(255, 68, 34), rgba(0, 0, 0, 0.7) 99%), url('/images/latest-games.jpg');
   }
 
   .latest-news {
@@ -805,6 +799,12 @@
   .lf-links-bars {
     display: inline-block;
     margin-left: 5px;
+  }
+
+  .love-wrapper {
+    width: 90%;
+    max-width: 1152px;
+    margin: 0 auto;
   }
 
   .fourth-banner {
