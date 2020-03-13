@@ -774,6 +774,16 @@
     margin: 108px 10px 78px 10px;
   }
 
+  .top1 {
+    position: relative;
+    background-image: linear-gradient(to bottom right, rgba(255, 68, 34), rgba(0, 0, 0, 0.7) 99%), url('/images/latest-games.jpg');
+  }
+
+  .top1 h2 {
+    font-size: 56px;
+    padding-bottom: 15px;
+  }
+
   .cover-logo {
     background: url('/images/tnw-logo.svg') no-repeat;
     margin-bottom: 215px;
@@ -783,13 +793,41 @@
     max-width: 50%;
   }
 
-  .top1 {
-    background-image: linear-gradient(to bottom right, rgba(255, 68, 34), rgba(0, 0, 0, 0.7) 99%), url('/images/latest-games.jpg');
+  .cover-date {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+
+  .top2 h2,
+  .top3 h2 {
+    font-size: 28px;
   }
 
   .latest-news {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .share-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .latest-funding {
+    position: relative;
+  }
+
+  .latest-funding h2 {
+    display: inline-block;
+  }
+
+  .lf-links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
   }
 
   .lf-links li {
