@@ -523,7 +523,6 @@
 
 .footer-links-ln2 li {
   margin: 10px;
-  line-height: 0em;
 }
 
 .footer-links li {
@@ -764,7 +763,7 @@
     margin-top: 20px;
   }
 
-   .lt-dktp-img {
+  .lt-dktp-img {
     min-height: 168px;
     max-height: 220px;
   }
