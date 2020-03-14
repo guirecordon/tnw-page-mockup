@@ -282,16 +282,17 @@
 
 .fund-banner h4 {
   display: block;
-  height: 58px;
+  height: 40px;
   font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
   background-color: #f42;
   color: #fff;
-  padding-left: 75px;
-  padding-top: 8px;
+  padding-left: 80px;
+  padding-top: 10px;
 }
 
 .fund-banner p {
-  font-size: 11px;
   font-family: 'Shentox', sans-serif;
 }
 
@@ -299,8 +300,16 @@
   display: block;
   background: rgba(255, 68, 34, 0.08);
   padding-top: 5px;
-  padding-left: 75px;
-  height: 40px;
+  padding-left: 80px;
+  height: 60px;
+}
+
+.fb-pricetag h5 {
+  font-size: 18px;
+}
+
+.fb-pricetag p {
+  font-size: 12px;
 }
 
 .fb-local-offer {
@@ -323,9 +332,13 @@
 
 .fb-local-offer-bottom {
   display: block;
-  font-size: 13px;
   background: rgba(255, 68, 34, 0.025);
   padding: 10px 16px 22px 16px;
+}
+
+.fb-local-offer-bottom p {
+  font-size: 12px;
+  color: #555;
 }
 
 .fb-local-offer-icon {
@@ -619,6 +632,7 @@
 
   .nav-bar-ipad-1 li {
     padding: 0 7.5px;
+    cursor: pointer;
   }
 
   .first-li-item {
@@ -627,6 +641,8 @@
 
   .nav-bar-ipad-2 li {
     padding-left: 17.5px;
+    font-size: 14px;
+    cursor: pointer;
   }
 
   .nav-bar-ipad-2 {
@@ -748,6 +764,11 @@
     margin-top: 20px;
   }
 
+   .lt-dktp-img {
+    min-height: 168px;
+    max-height: 220px;
+  }
+
   .footer-legal span {
     display: inline;
   }
@@ -845,9 +866,9 @@
   }
 
   .love-wrapper {
-    width: 90%;
-    max-width: 1152px;
+    max-width: 1192px;
     margin: 0 auto;
+    padding: 0 20px;
   }
 
   .fourth-banner {
@@ -867,7 +888,12 @@
   }
 
   .ln-bg-img {
-    min-height: 112px;
+    min-height: 135px;
     max-height: 251px;
+  }
+
+  .lt-dktp-img {
+    min-height: 175px;
+    max-height: 200px;
   }
 }
