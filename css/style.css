@@ -282,14 +282,14 @@
 
 .fund-banner h4 {
   display: block;
-  height: 40px;
+  height: 38px;
   font-size: 18px;
   font-weight: bold;
   line-height: 1;
   background-color: #f42;
   color: #fff;
   padding-left: 80px;
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 .fund-banner p {
@@ -301,15 +301,7 @@
   background: rgba(255, 68, 34, 0.08);
   padding-top: 5px;
   padding-left: 80px;
-  height: 60px;
-}
-
-.fb-pricetag h5 {
-  font-size: 18px;
-}
-
-.fb-pricetag p {
-  font-size: 12px;
+  height: 40px;
 }
 
 .fb-local-offer {
@@ -443,9 +435,45 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/massive.jpg');
 }
 
-.sub-article img {
+.sub-article-img-wrapper {
+  display: block;
+  flex: 0 0 96px;
+  background-size: cover;
+  background-position: 50%;
   width: 96px;
   height: 96px;
+}
+
+.sub-a-img1 {
+  background-image: url('../images/latest.png');
+}
+
+.sub-a-img2 {
+  background-image: url('../images/sonos.png');
+}
+
+.sub-a-img3 {
+  background-image: url('../images/google-tensor.png');
+}
+
+.sub-a-img4 {
+  background-image: url('../images/GodfallTeaser04-796x448.png');
+}
+
+.sub-a-img5 {
+  background-image: url('../images/mobile-voting.png');
+}
+
+.sub-a-img6 {
+  background-image: url('../images/Doctor-796x417.png');
+}
+
+.sub-a-img7 {
+  background-image: url('../images/neural.png');
+}
+
+.sub-a-img8 {
+  background-image: url('../images/Microsoft-Edge-Surf-796x417.jpg');
 }
 
 .sub-article div {
@@ -763,9 +791,13 @@
     margin-top: 20px;
   }
 
-  .lt-dktp-img {
-    min-height: 168px;
-    max-height: 220px;
+  .lf-links-bars {
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  .lf-links li {
+    display: inline-block;
   }
 
   .footer-legal span {
@@ -894,5 +926,6 @@
   .lt-dktp-img {
     min-height: 175px;
     max-height: 200px;
+    padding-top: 74.5%;
   }
 }
