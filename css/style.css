@@ -282,14 +282,14 @@
 
 .fund-banner h4 {
   display: block;
-  height: 40px;
+  height: 38px;
   font-size: 18px;
   font-weight: bold;
   line-height: 1;
   background-color: #f42;
   color: #fff;
   padding-left: 80px;
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 .fund-banner p {
@@ -301,15 +301,7 @@
   background: rgba(255, 68, 34, 0.08);
   padding-top: 5px;
   padding-left: 80px;
-  height: 60px;
-}
-
-.fb-pricetag h5 {
-  font-size: 18px;
-}
-
-.fb-pricetag p {
-  font-size: 12px;
+  height: 40px;
 }
 
 .fb-local-offer {
@@ -450,6 +442,18 @@
   background-position: 50%;
   width: 96px;
   height: 96px;
+}
+
+.sub-a-bg-img1 {
+  background-image: url('../images/first-replacement.jpg');
+}
+
+.sub-a-bg-img2 {
+
+}
+
+.sub-a-bg-img3 {
+  
 }
 
 .sub-a-img1 {
@@ -799,9 +803,13 @@
     margin-top: 20px;
   }
 
-  .lt-dktp-img {
-    min-height: 168px;
-    max-height: 220px;
+  .lf-links-bars {
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  .lf-links li {
+    display: inline-block;
   }
 
   .footer-legal span {
