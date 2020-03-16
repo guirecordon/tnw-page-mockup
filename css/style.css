@@ -282,11 +282,11 @@
 
 .fund-banner h4 {
   display: block;
-  height: 58px;
+  height: 38px;
   font-size: 18px;
   background-color: #f42;
   color: #fff;
-  padding-left: 75px;
+  padding-left: 80px;
   padding-top: 8px;
 }
 
@@ -299,7 +299,7 @@
   display: block;
   background: rgba(255, 68, 34, 0.08);
   padding-top: 5px;
-  padding-left: 75px;
+  padding-left: 80px;
   height: 40px;
 }
 
@@ -430,9 +430,14 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/massive.jpg');
 }
 
-.sub-article img {
+.sub-article-img {
   width: 96px;
   height: 96px;
+  /* overflow: hidden; */
+}
+
+.sub-article-img img {
+  width: 200px;
 }
 
 .sub-article div {
@@ -746,6 +751,15 @@
 
   .sg-article-list ul {
     margin-top: 20px;
+  }
+
+  .lf-links-bars {
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  .lf-links li {
+    display: inline-block;
   }
 
   .footer-legal span {
